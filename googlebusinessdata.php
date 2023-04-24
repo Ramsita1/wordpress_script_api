@@ -1,10 +1,10 @@
 <?php
 
 require 'vendor/autoload.php';
-$spreadsheet = \PhpOffice\PhpSpreadsheet\IOFactory::load("C:\Users\abc\Downloads\Google_Bussiness_data.csv");
+$spreadsheet = \PhpOffice\PhpSpreadsheet\IOFactory::load("Google_Bussiness_data.csv");
 $worksheet = $spreadsheet->getActiveSheet();
 $token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vdGVjaGhvbWUub3JnIiwiaWF0IjoxNjgyMzEwOTQwLCJuYmYiOjE2ODIzMTA5NDAsImV4cCI6MTY4MjkxNTc0MCwiZGF0YSI6eyJ1c2VyIjp7ImlkIjoiMSJ9fX0.2BMVEKYwyHo6Ba056xURnxJSHeSabdhfXYzC_yzOhHE";
-$site_url = "http://techhome.org/";
+$site_url = "https://blog1.mpcc.in/";
 // $wordpress_username = "techhome";
 // $wordpress_password = "pseo@gmail.com";
 
